@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+.div1{
+    background-image: url(images/theater-image-background.png);
+    height: 20vh;
+    width: 100vh;
+    border: 1px solid black;
+    background-size: contain;
+}
+.div2{
+    height: 350px;
+    border: 1px solid black;
+    background-color: seashell;
+}
+
+.show-img{
+    height: 200px;
+    width: 200px; 
+}
+
+
+/* table{
+    align-self: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    table-layout: fixed;
+}
+th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+th{
+    font-size: larger;
+} */
+.table-img{
+        width: 50%;
+        display: block;
+        object-fit: contain;
+}
+h1{
+    color: white;
+    font-size: 120px;
+    display: flex; 
+    justify-content: center; 
+    padding-top: 10%;
+}
+.top-label{
+    width: 500px;
+    border: 2px solid gray; 
+    padding: 10px, 20px, 20px, 0px; 
+    box-shadow: 5px, 10px, 10px gray;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+/* .orange-btn{
+    background-color: orange;
+    color:white;
+    border: 1px solid gray; */
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.flexbox-col{
+    display: flex;
+    flex-direction: col;
+    justify-content:center;
+    align-items: center;
+
+}
+.flex-contentbox{
+    width: 550px;
+    margin: 1px;
+    border: none;
+    background-color: white;
+}
+.box{
+    background-color:white; 
+    border: 1px solid white; 
+    padding: 10px;
+    margin : 10px; 
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    /* height: 250px;  */
+    background-color: black;
+    color: white; 
+    padding-top: 20px;
+    
+}
